@@ -60,3 +60,11 @@ end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+
+# ユーザー登録をするためのgemを導入
+gem 'devise'
+# breakpointを貼りたいので、デバックツールのpryを導入
+gem 'pry-rails'
+
+# jQueryを使うためのgem
+gem "jquery-rails"
