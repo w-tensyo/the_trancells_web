@@ -1,1 +1,12 @@
-%h1 Hello ごんちゃん！
+.indexBody.container.rowReset
+    #top.section.row.md-12
+        = image_tag 'dammy-top-image.jpg'
+        #title
+            The
+            %br
+            Trancells
+    
+    #news.section.row.md-12
+        = render partial: 'share/news'
+    #biography.section.row.md-12.rowReset
+        = render partial: 'share/biography'

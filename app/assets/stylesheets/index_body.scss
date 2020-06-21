@@ -1,0 +1,25 @@
+.indexBody{
+    width: 100%;
+    margin: 0px;
+    img{
+        width: 100vw;
+        height: 300px;
+        object-fit: cover;
+    }
+}
+
+#top{
+    position: relative;
+}
+
+#title{
+    position: absolute;
+    left: 20px;
+    bottom: 20px;
+    color:$menu-list-font-color;
+    font-size:42px;
+}
+
+.section{
+    padding:0px;
+}
