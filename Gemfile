@@ -63,8 +63,12 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 # ユーザー登録をするためのgemを導入
 gem 'devise'
-# breakpointを貼りたいので、デバックツールのpryを導入
-gem 'pry-rails'
+
+# hamlで実装するためにgemを導入
+gem 'haml-rails'
 
 # jQueryを使うためのgem
 gem "jquery-rails"
+
+# breakpointを貼りたいので、デバックツールのpryを導入
+gem 'pry-rails'
