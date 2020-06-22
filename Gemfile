@@ -62,7 +62,7 @@ end
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 # bootstrapを導入してみる
-gem "bootstrap-sass", "~>3.3.6"
+gem "bootstrap-sass", "~>3.4.1"
 
 # ユーザー登録をするためのgemを導入
 gem 'devise'
