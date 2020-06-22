@@ -1,10 +1,12 @@
 $main-color:#082D6A;
 $accent-color:#D54C4D;
+$main-font:'Play', sans-serif;
 
 $menu-list-font-color:#ffffff;
 
+$main-font-color:#333333;
+
 .col-md-3{
-    width: 25%;
     color:$accent-color;
 }
 
@@ -15,4 +17,18 @@ $menu-list-font-color:#ffffff;
 #biography{
     width: 100%;
     padding:0px;
+}
+
+body{
+    overflow: scroll;
+    -ms-overflow-style: none;  /* これを追加 */
+
+}
+
+body::-webkit-scrollbar {
+    display:none;
+}
+
+link{
+    text-decoration: none;
 }

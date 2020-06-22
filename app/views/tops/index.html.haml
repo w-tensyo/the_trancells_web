@@ -1,12 +1,12 @@
-.indexBody.container.rowReset
-    #top.section.row.md-12
+.indexBody.no-gutters
+    #top.section
         = image_tag 'dammy-top-image.jpg'
-        #title
+        #title.hidden-md.hidden-lg
             The
             %br
             Trancells
     
-    #news.section.row.md-12
+    #news.section
         = render partial: 'share/news'
-    #biography.section.row.md-12.rowReset
+    #biography.section
         = render partial: 'share/biography'

@@ -1,4 +1,5 @@
 .biographyBody{
+    font-family: $main-font;
     width: 100%;
     &__title{
         padding-top: 16px;
@@ -12,14 +13,25 @@
         &__detail{
             height: 500px;
             position: relative;
+            .col-md-3{
+                width: 25%;
+            }
+            .col-xs-12{
+                width: 100%;
+            }
             &__part{
                 position: absolute;
-                left: 15px;
                 bottom: 15px;
                 font-size: 18px;
                 color: white;
                 .span{
                     font-size: 32px;
+                }
+                .col-md-3{
+                    left: 15px;
+                }
+                .col-xs-12{
+                    left: 45px;
                 }
             }
         }
@@ -27,22 +39,17 @@
 }
 
 #gt{
-    background-color: green;
+    background-color: gray;
 }
 
 #vo{
-    background-color: yellowgreen;
+    background-color: lightgray;
 }
 
 #ba{
-    background-color: orange;
+    background-color: lightslategray;
 }
 
 #dr{
-    background-color: peru;
-}
-
-.rowReset{
-    margin-right: 0px;
-    margin-left: 0px;
+    background-color: lightsteelblue;
 }
