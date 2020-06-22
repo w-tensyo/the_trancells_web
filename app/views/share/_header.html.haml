@@ -1,0 +1,39 @@
+-# PC仕様
+.header.no-gutters.visible-md.visible-lg
+  .header__pc
+    .row.col-md-3
+      .header__pc__title
+        The Trancells
+    .row.col-md-9
+      .header__pc__menu
+        %ul.nav.nav-tabs.nav-justified
+          %li.menu-list
+            TOP
+          %li.menu-list
+            BIOGRAPHY
+          %li.menu-list
+            DISCOGRAPHY
+          %li.menu-list
+            SPACIAL
+          %li.menu-list
+            CONTACT
+-# SP仕様
+.header.no-gutters.hidden-md.hidden-lg
+  .header__sp
+    .header__sp__menu
+      = image_tag 'menu-icon.png', class: "menu-icon", id: "menu-btn"
+    #js-menuList.header__sp__menuList
+      .header__sp__menuList__label
+        .header__sp__menuList__label__title
+          The Trancells
+        .header__sp__menuList__label__closeBtn
+          = image_tag 'menu-close-icon.png', id: "spMenu-close-icon"
+      %ul
+        %li
+          TOP
+        %li
+          BIOGRAPHY
+        %li
+          SPACIAL
+        %li
+          CONTACT

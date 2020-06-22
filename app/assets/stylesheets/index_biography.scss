@@ -1,0 +1,55 @@
+.biographyBody{
+    font-family: $main-font;
+    width: 100%;
+    &__title{
+        padding-top: 16px;
+        padding-bottom: 16px;
+        text-align: center;
+        font-size: 32px;
+        font-weight: bold;
+    }
+    &__member{
+        width: 100%;
+        &__detail{
+            height: 500px;
+            position: relative;
+            .col-md-3{
+                width: 25%;
+            }
+            .col-xs-12{
+                width: 100%;
+            }
+            &__part{
+                position: absolute;
+                bottom: 15px;
+                font-size: 18px;
+                color: white;
+                .span{
+                    font-size: 32px;
+                }
+                .col-md-3{
+                    left: 15px;
+                }
+                .col-xs-12{
+                    left: 45px;
+                }
+            }
+        }
+    }
+}
+
+#gt{
+    background-color: gray;
+}
+
+#vo{
+    background-color: lightgray;
+}
+
+#ba{
+    background-color: lightslategray;
+}
+
+#dr{
+    background-color: lightsteelblue;
+}

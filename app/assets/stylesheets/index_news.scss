@@ -1,0 +1,54 @@
+.news{
+    width: 80%;
+    height: 500px;
+    margin: 0 auto;
+    position: relative;
+    &__title{
+        font-size: 32px;
+        font-weight: bold;
+        text-align: center;
+        padding-top: 16px;
+        padding-bottom: 16px;
+    }
+    &__topic{
+        width: 100%;
+        &__title{
+            margin-bottom: 12px;
+            padding: 12px 8px 12px 8px;
+            background-color: $main-color;
+            .span{
+                text-align: center;
+                border: 0px;
+                color: $menu-list-font-color;
+            }
+        }
+        &__list{
+            margin-bottom: 12px;
+            &__date{
+                border-left: 1px solid #cccccc;
+                color: $main-font-color;
+                font-size: 16px;
+                font-weight: bold;
+            }
+            &__detail{
+                border-left: 1px solid #cccccc;
+                border-right: 1px solid #cccccc;
+            }
+        }
+    }
+    &__more{
+        position: absolute;
+        width: 100%;
+        margin: 0 auto;
+        bottom: 24px;
+    }
+}
+
+.infoBtn{
+    text-align: center;
+    padding: 8px 12px;
+    border: 1px solid $main-font-color;
+    color: $main-font-color;
+    border-radius: 8px;
+    display: block;
+}
