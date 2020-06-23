@@ -1,0 +1,70 @@
+.footerBody{
+    // PCのレイアウト
+    &__PC{
+        width: 100%;
+        height:56px;
+        background-color: $main-color;
+        color: $menu-list-font-color;
+        display: flex;
+        &__copyRight{
+            padding: 8px 0 8px 16px;
+            width: 30%;
+            font-size: 12px;
+            font-weight: none;
+            line-height: 20px;
+        }
+        &__socialMedia{
+            text-align: right;
+            padding: 8px 16px 8px 0px;
+            width: 70%;
+            display: flex;
+            &__list{
+                line-height: 40px;
+                width: 100%;
+                font-size: $pc-body-font;
+                a{
+                    display: inline-block;
+                    width: 50px;
+                    text-align: center;
+                }
+            }
+        }
+    }
+    //SPのレイアウト
+    &__SP{
+        &__socialMedia{
+            width: 100%;
+            background-color: $main-color;
+            color: $menu-list-font-color;
+            &__title{
+                padding-top: 12px;
+                text-align: center;
+                font-size: $pc-body-font;
+                height: 20px;
+            }
+            &__list{
+                height: 100px;
+                line-height: 125px;
+                margin: 0 auto;
+                width: 60%;
+                display: flex;
+                &__detail{
+                    display: inline-block;
+                    text-align: center;
+                    width: 32%;
+                }
+                a{
+                    font-size:48px;
+                }
+            }
+        }
+
+        &__copyRight{
+            background-color: $main-color;
+            color: $menu-list-font-color;
+            text-align: center;
+            height: 50px;
+            line-height: 50px;
+        }
+    }
+}

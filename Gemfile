@@ -73,5 +73,8 @@ gem 'haml-rails'
 # jQueryを使うためのgem
 gem "jquery-rails"
 
+# アイコンを導入するためのgem
+gem 'font-awesome-sass', '~> 5.4.1'
+
 # breakpointを貼りたいので、デバックツールのpryを導入
 gem 'pry-rails'

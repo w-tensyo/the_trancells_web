@@ -6,9 +6,12 @@ $menu-list-font-color:#ffffff;
 
 $main-font-color:#333333;
 
-.col-md-3{
-    color:$accent-color;
-}
+
+$pc-title-font:32px;
+$pc-body-font:18px;
+$sp-title-font:48px;
+$sp-body-font:24px;
+
 
 #top{
     width: 100%;
@@ -18,17 +21,11 @@ $main-font-color:#333333;
     width: 100%;
     padding:0px;
 }
-
-body{
-    overflow: scroll;
-    -ms-overflow-style: none;  /* これを追加 */
-
-}
-
-body::-webkit-scrollbar {
-    display:none;
-}
-
-link{
+a{
     text-decoration: none;
 }
+
+a:hover{
+    color :$accent-color;
+    text-decoration: none;
+  }

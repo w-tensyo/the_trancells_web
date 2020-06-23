@@ -12,6 +12,9 @@
     }
     &__topic{
         width: 100%;
+        max-height: 300px;
+        overflow-y: hidden;
+        
         &__title{
             margin-bottom: 12px;
             padding: 12px 8px 12px 8px;
@@ -29,8 +32,10 @@
                 color: $main-font-color;
                 font-size: 16px;
                 font-weight: bold;
+                padding: 4px 0 2px 12px;
             }
             &__detail{
+                padding: 4px 0 2px 12px;
                 border-left: 1px solid #cccccc;
                 border-right: 1px solid #cccccc;
             }

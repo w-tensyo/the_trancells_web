@@ -3,13 +3,27 @@
     width:100%;
     &__pc{
         height:60px;
+        display: flex;
         background-color: $main-color;
         &__title{
+            width: 30%;
             padding-left: 24px;
             line-height: 60px;
             font-size: 30px;
             font-weight: bold;
             color: $accent-color;
+        }
+        &__menu{
+            width: 70%;
+            padding: 0 0 0 50px;
+            ul{
+                margin: 0px;
+                width: 100%;
+            }
+            li{
+                display: inline;
+                padding: 0 50px 0 14px;
+            }
         }
     }
     &__sp{
@@ -48,6 +62,14 @@
                     
                 }
             }
+            ul{
+                width: 100%;
+            }
+            a{
+                display: block;
+                line-height: 60px;
+                padding: 0 0 0 12px;
+            }
         }
     }
 }
@@ -59,8 +81,8 @@
 }
 
 .menu-icon{
-    width: 32px;
-    height: 32px;
+    width: 24px;
+    height: 24px;
 }
 ul{
     width:100%;

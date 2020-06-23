@@ -1,0 +1,33 @@
+//PCのレイアウト
+.footerBody.visible-md.visible-lg
+    .footerBody__PC
+        .footerBody__PC__copyRight
+            CopyRight
+            %br
+            2019 The Trancells
+        .footerBody__PC__socialMedia
+            .footerBody__PC__socialMedia__list
+                = link_to '#' do
+                    = icon('fab','twitter-square')
+                = link_to '#' do
+                    = icon('fab','youtube-square')
+                = link_to '#' do
+                    = icon('fab','instagram')
+//SPのレイアウト
+.footerBody.visible-xs.visible-sm
+    .footerBody__SP
+        .footerBody__SP__socialMedia
+            .footerBody__SP__socialMedia__title
+                Social Media
+            .footerBody__SP__socialMedia__list
+                .footerBody__SP__socialMedia__list__detail
+                    = link_to '#' do
+                        = icon('fab','twitter-square')
+                .footerBody__SP__socialMedia__list__detail
+                    = link_to '#' do
+                        = icon('fab','youtube')
+                .footerBody__SP__socialMedia__list__detail
+                    = link_to '#' do
+                        = icon('fab','instagram')
+        .footerBody__SP__copyRight
+            CopyRight 2019 The Trancells

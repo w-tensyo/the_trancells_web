@@ -10,28 +10,31 @@
     }
     &__member{
         width: 100%;
+        @media (max-width: 812px){
+            display: block;
+            
+        }
+        @media (min-width: 813px){
+            display:flex;
+        }
         &__detail{
             height: 500px;
             position: relative;
-            .col-md-3{
-                width: 25%;
-            }
-            .col-xs-12{
+            @media (max-width: 812px){
                 width: 100%;
+                
+            }
+            @media (min-width: 813px){
+                width: 25%;
             }
             &__part{
                 position: absolute;
                 bottom: 15px;
                 font-size: 18px;
                 color: white;
+                left: 15px;
                 .span{
                     font-size: 32px;
-                }
-                .col-md-3{
-                    left: 15px;
-                }
-                .col-xs-12{
-                    left: 45px;
                 }
             }
         }

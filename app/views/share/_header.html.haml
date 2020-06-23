@@ -1,24 +1,22 @@
 -# PC仕様
-.header.no-gutters.visible-md.visible-lg
+.header.visible-md.visible-lg
   .header__pc
-    .row.col-md-3
-      .header__pc__title
-        The Trancells
-    .row.col-md-9
-      .header__pc__menu
-        %ul.nav.nav-tabs.nav-justified
-          %li.menu-list
-            TOP
-          %li.menu-list
-            BIOGRAPHY
-          %li.menu-list
-            DISCOGRAPHY
-          %li.menu-list
-            SPACIAL
-          %li.menu-list
-            CONTACT
+    .header__pc__title
+      The Trancells
+    .header__pc__menu
+      %ul
+        %li.menu-list
+          =link_to "TOP","#"
+        %li.menu-list
+          =link_to "BIOGRAPHY","#"
+        %li.menu-list
+          =link_to "DISCOGRAPHY","#"
+        %li.menu-list
+          =link_to "SPACIAL","#"
+        %li.menu-list
+          =link_to "CONTACT","#"
 -# SP仕様
-.header.no-gutters.hidden-md.hidden-lg
+.header.hidden-md.hidden-lg
   .header__sp
     .header__sp__menu
       = image_tag 'menu-icon.png', class: "menu-icon", id: "menu-btn"
@@ -30,10 +28,14 @@
           = image_tag 'menu-close-icon.png', id: "spMenu-close-icon"
       %ul
         %li
-          TOP
+          =link_to "#" do
+            TOP
         %li
-          BIOGRAPHY
+          =link_to "#" do
+            BIOGRAPHY
         %li
-          SPACIAL
+          =link_to "#" do
+            SPACIAL
         %li
-          CONTACT
+          =link_to "#" do
+            CONTACT
